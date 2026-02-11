@@ -123,6 +123,12 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 
 # Important Notices <!-- omit in toc -->
 
+> [!IMPORTANT]
+> 
+> Due to Vercel's recent changes to their OSS sponsorship, the public `github-readme-stats.vercel.app` deployment is likely to be paused or discontinued in the near future.
+> 
+> To ensure uninterrupted service, we highly recommend deploying your own instance to your Vercel account. You can find detailed instructions on how to do this in the "[Deploy on your own](#deploy-on-your-own)" section.
+
 > [!IMPORTANT]\
 > Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
 
